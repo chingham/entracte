@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#fffaf4" />
+        <title>Entracte – Assistance</title>
+        <meta
+            name="description"
+            content="Une question sur Entracte ? Écrivez au développeur ou consultez les questions fréquentes."
+        />
+        <link rel="icon" type="image/png" href="icon.png" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <a class="skip-link" href="#contenu">Aller au contenu</a>
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="index.html" aria-label="Entracte, accueil"
+                    ><img src="icon.png" alt="" width="60" height="36" />Entracte</a
+                >
+                <nav aria-label="Navigation principale">
+                    <a href="confidentialite.html">Confidentialité</a>
+                    <a href="assistance.html" aria-current="page">Assistance</a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="contenu" class="document-main section-shell">
+            <div class="document-heading">
+                <p class="eyebrow">UN COUP DE MAIN</p>
+                <h1>On est là pour vous.</h1>
+                <p class="lead">
+                    Une question, un problème ou une idée ? Écrivez-moi, je réponds en général sous quelques jours.
+                </p>
+            </div>
+            <div class="document-layout">
+                <aside class="document-index" aria-label="Rubriques d’assistance">
+                    <p class="eyebrow">ASSISTANCE</p>
+                    <nav aria-label="Navigation de l’assistance">
+                        <a href="#contact">Écrire au développeur</a>
+                        <a href="#questions">Questions fréquentes</a>
+                        <a href="confidentialite.html">Vos données et votre vie privée ↗</a>
+                    </nav>
+                </aside>
+                <div>
+                    <section id="contact" class="contact-card" aria-labelledby="contact-title">
+                        <div class="contact-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24">
+                                <rect x="3" y="5" width="18" height="14" rx="3" />
+                                <path d="m4 7 8 6 8-6" />
+                            </svg>
+                        </div>
+                        <h2 id="contact-title">Derrière Entracte, un indépendant.</h2>
+                        <p>
+                            Pour une question sur l’app, un souci ou une suggestion, vous pouvez me contacter
+                            directement.
+                        </p>
+                        <a class="button button-primary" href="mailto:selene.app.contact@gmail.com"
+                            >Écrire au développeur <span aria-hidden="true">↗</span></a
+                        >
+                        <p class="contact-address">selene.app.contact@gmail.com</p>
+                    </section>
+                    <section id="questions" aria-labelledby="faq-title">
+                        <h2 id="faq-title" class="faq-heading">Questions fréquentes</h2>
+                        <div class="faq-list">
+                            <details open>
+                                <summary>De quoi ai-je besoin pour utiliser Entracte ?</summary>
+                                <p>
+                                    D'une Apple TV et d'un NAS, ou d'un ordinateur, qui partage vos vidéos sur le réseau
+                                    local en SMB. Il n'y a aucun logiciel à installer sur le NAS.
+                                </p>
+                            </details>
+                            <details>
+                                <summary>Entracte ne trouve pas mon NAS. Que vérifier ?</summary>
+                                <p>
+                                    L'Apple TV et le NAS doivent être sur le même réseau. Au premier lancement, tvOS
+                                    demande l'autorisation d'accéder au réseau local : si elle a été refusée,
+                                    réactivez-la dans l'app Réglages de l'Apple TV, rubrique Apps, puis Entracte.
+                                </p>
+                            </details>
+                            <details>
+                                <summary>Un film ou une série est mal reconnu. Comment le corriger ?</summary>
+                                <p>
+                                    Ouvrez sa fiche et choisissez « Corriger la fiche » : vous y choisissez la bonne
+                                    correspondance parmi les propositions, ainsi que l'affiche. Un nom de fichier contenant
+                                    le titre et l'année donne les meilleurs résultats.
+                                </p>
+                            </details>
+                            <details>
+                                <summary>Où sont mes données ?</summary>
+                                <p>
+                                    Sur votre Apple TV pour la bibliothèque, sur votre NAS pour les vidéos. Le détail
+                                    est dans la <a href="confidentialite.html">politique de confidentialité</a>.
+                                </p>
+                            </details>
+                        </div>
+                    </section>
+                    <div class="help-note">
+                        <span aria-hidden="true">ⓘ</span>
+                        <p>
+                            Pour expliquer un problème, indiquez votre modèle d’Apple TV, votre version de tvOS et la
+                            marque de votre NAS. Vous n’avez pas besoin de partager le nom de vos fichiers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer section-shell">
+            <div>
+                <a class="brand footer-brand" href="index.html"
+                    ><img src="icon.png" alt="" width="46" height="28" />Entracte</a
+                >
+                <p>Par un développeur indépendant français.</p>
+            </div>
+            <nav aria-label="Liens utiles">
+                <a href="confidentialite.html">Confidentialité</a><a href="assistance.html">Assistance</a>
+            </nav>
+        </footer>
+    </body>
+</html>
